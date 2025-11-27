@@ -2,107 +2,93 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" type="image/x-icon" href="Images/Brrrista_Bar_Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dekko&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Brrrista Bar | Meny </title>
-    <link rel="icon" type="image/x-icon" href="Images/Brrrista_Bar_Logo.png">
-    <style>
-        @font-face {
-            font-family: 'Jingleberry';
-            src: url('Jingleberry.otf') format('opentype');
-        }
 
-        h1 {
-            font-family: Jingleberry, Century gothic, MV boli, Segoe Print, Comic sans MS;
-            font-size: 400%;
-            background-color: burlywood;
-            color: darkslategray;
-            text-align: center;
-        }
 
-        h2 {
-            font-family: Jingleberry, MV boli, Segoe Print, Comic sans MS;
-            font-size: 200%;
-            background-color: burlywood;
-            color: darkslategray;
-        }
-
-        p {
-            font-family: Nirmala UI, Malgun gothic, Calibri;
-        }
-
-        #extra {
-            color: dimgray;
-        }
-
-        #extra:hover {
-            color: blue;
-        }
-
-        .coffee_type {
-            color: brown;
-        }
-
-        .container {
-            display: grid;
-            width: 70%;
-            margin-left: 15%;
-            margin-right: 15%;
-
-            grid-template-columns: auto auto auto;
-            gap: 30px;
-            background-color: aliceblue;
-            margin-top: 40px;
-        }
-
-        .container div {
-            margin: 20px;
-            background-color: blue;
-            font-size: 20px;
-            text-align: center;
-        }
-    </style>
 </head>
 
 <body>
 
     <body style="background-color: blanchedalmond;"></body>
-    <h1> Brrrista bar</h1>
 
-    <h2 class="coffee_type">Iskaffe</h2>
-    <div class="container">
-        <div>
-            <h3>Kaffe smak 1</h3>
+    <div class="header-container">
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❄</div>
+
+        <div class="coffee-cup">
+            <img src="Images/Brrrista_Bar_Logo-removebg-preview.png" alt="Brrrista_Bar_Logo">
         </div>
-        <div>
-            <h3>Kaffe smak 2</h3>
-        </div>
-        <div>
-            <h3>Kaffe smak 3</h3>
-        </div>
-        <div>
-            <h3>Kaffe smak 4</h3>
-        </div>
-        <div>
-            <h3>Kaffe smak 5</h3>
-        </div>
-        <div>
-            <h3>Kaffe smak 6</h3>
+
+        <div style="text-align: center;">
+            <div class="title-border">
+                <div class="title">
+                    <a href="Brrrista Bar.html">Brrrista<br>Bar</a>
+                </div>
+            </div>
         </div>
     </div>
-    <hr>
-    <h2 class="coffee_type">Varm kaffe</h2>
-    <hr>
-    <h2 class="coffee_type">Shaket kaffe</h2>
-    <hr>
-    <h2 class="coffee_type">Blendet kaffe</h2>
-    <hr>
-    <h2 class="coffee_type">Unik kaffe</h2>
-    <p>Disse produktene inneholder unike ingredisenser, og kan være ute av sortemanget. <br> Spør gjerne baristaen om
-        de kan lage drikken for deg, men vær klar over at det ikke alltid er mulig</p>
-    <h2 id="extra">Ekstra</h2>
-    <img src="/Images/Test_kaffe.jpg" alt="fristende kald kaffe" style="width:200px;height:300px;">
+
+    <ul class="navigation">
+        <li><a href="Screens/Varm_kaffe.html">Iskaffe</a></li>
+        <li><a href="Screens/Varm_kaffe.html">Varm kaffe</a></li>
+        <li><a href="Screens/Shaket_kaffe.html">Shaket kaffe</a></li>
+        <li><a href="Screens/Blendet_Kaffe.html">Blendet kaffe</a></li>
+        <li><a href="Screens/Unik_kaffe.html">Unik kaffe</a></li>
+    </ul>
+
+    <h2 class="coffee-type">Iskaffe</h2>
+    <div class="container">
+        <div class="coffee-row">
+            <div class="coffee-box">
+                <a href="Product 1">
+                    <h3>Product 1</h3>
+                </a>
+            </div>
+            <div class="coffee-box">
+                <a href="Product 2">
+                    <h3>Product 2</h3>
+                </a>
+            </div>
+            <div class="coffee-box">
+                <a href="Product 3">
+                    <h3>Product 3</h3>
+                </a>
+            </div>
+        </div>
+        <div class="coffee-row">
+            <div class="coffee-box">
+                <a href="Product 4">
+                    <h3>Product 4</h3>
+                </a>
+            </div>
+            <div class="coffee-box">
+                <a href="Product 5">
+                    <h3>Product 5</h3>
+                </a>
+            </div>
+            <div class="coffee-box">
+                <a href="Product 6">
+                    <h3>Product 6</h3>
+                </a>
+            </div>
+        </div>
+    </div>
 
 
 </body>
