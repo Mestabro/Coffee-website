@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'Jingleberry';
+    src: url('Jingleberry.otf') format('opentype');
+}
+
+body {
+    align-items: center;
+}
+
+h2 {
+    font-family: Jingleberry, MV boli, Segoe Print, Comic sans MS;
+    font-size: 200%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+h3 {
+    font-family: "Dekko", cursive;
+    font-size: 100%;
+    color: #f8e9ce;
+    background-color: #67371c;
+    padding: 10px;
+}
+
+h3:hover {
+    color: #e6fbea
+}
+
+p {
+    font-family: "Dekko", Nirmala UI, Malgun gothic, Calibri;
+    font-size: 110%;
+    margin-left: 15%;
+    margin-top: 0.5%;
+}
+
+.coffee-type {
+    color: #9e663100;
+     -webkit-text-stroke: 1.5px #422d1a;
+    font-family: Jingleberry, Century gothic, MV boli, Segoe Print, Comic sans MS;
+    text-shadow:
+        1px 1.5px 0 #9e6631;
+
+}
+
+.navigation li {
+    width: 15%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #422d1a;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li a {
+    display: block;
+    color: #f8e9ce;
+    font-family: Jingleberry, MV boli, Segoe Print, Comic sans MS;
+    font-size: 150%;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #312114;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    gap: 30px;
+    background-color: pink;
+    margin-top: 40px;
+}
+
+.coffee-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px;
+    background-color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+
+.coffee-box {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 20px;
+    background-color: green;
+    font-size: 20px;
+    text-align: center;
+}
+
+.coffee-box a {
+    text-decoration: none;
+}
+
+.coffee-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    background: linear-gradient(to right, #f8e9cf, #d8be9f, #a1744f);
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.coffee-cup {
+    position: absolute;
+    left: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 200px;
+}
+
+.coffee-cup img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    font-size: 4em;
+    color: #f8e9ce00;
+    -webkit-text-stroke: 3px #9e6631;
+    font-family: Jingleberry, Century gothic, MV boli, Segoe Print, Comic sans MS;
+    text-shadow:
+        4px 3px 0 #f8e9ce;
+    letter-spacing: 4px;
+    position: relative;
+}
+
+.title a {
+    text-decoration: none;
+    color: inherit;
+    -webkit-text-stroke: inherit;
+}
+
+.title-border {
+    position: relative;
+    border-radius: 200px;
+    padding: 20px 60px;
+    display: inline-block;
+}
+
+.title-border::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 200px;
+    padding: 2px;
+    background: linear-gradient(to bottom, #9e6631 0%, #f8e9ce 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+}
+
+.snowflake {
+    position: absolute ;
+    color: #e6fbea;
+    font-size: 2em;
+    opacity: 0.8;
+    animation: float 3s ease-in-out infinite;
+    overflow: hidden;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.snowflake:nth-child(1) {
+    top: 20px;
+    left: 300px;
+    font-size: 1.5em;
+    animation-delay: 0s;
+}
+
+.snowflake:nth-child(2) {
+    top: 40px;
+    left: 230px;
+    font-size: 1.5em;
+    animation-delay: 0.5s;
+}
+
+.snowflake:nth-child(3) {
+    top: 120px;
+    left: 270px;
+    font-size: 1.8em;
+    animation-delay: 1s;
+}
+
+.snowflake:nth-child(4) {
+    top: 30px;
+    right: 130px;
+    font-size: 2em;
+    animation-delay: 0.3s;
+}
+
+.snowflake:nth-child(5) {
+    top: 70px;
+    right: 200px;
+    font-size: 1.4em;
+    animation-delay: 0.8s;
+}
+
+.snowflake:nth-child(6) {
+    bottom: 50px;
+    right: 120px;
+    font-size: 3em;
+    animation-delay: 0.2s;
+}
+
+.snowflake:nth-child(7) {
+    bottom: 20px;
+    left: 240px;
+    font-size: 3em;
+    animation-delay: 0.6s;
+}
+
+.snowflake:nth-child(8) {
+    top: 100px;
+    left: 200px;
+    font-size: 1.3em;
+    animation-delay: 0.9s;
+}
