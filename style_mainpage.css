@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: 'Jingleberry';
     src: url('Jingleberry.otf') format('opentype');
@@ -15,44 +17,18 @@ h1 {
     color: #9e663100;
     -webkit-text-stroke: 1.5px #422d1a;
     font-family: Jingleberry, Century gothic, MV boli, Segoe Print, Comic sans MS;
-    text-shadow:
-    1px 1.5px 0 #9e6631;
+    text-shadow: 1px 1.5px 0 #9e6631;
 }
 
 h2 {
     font-family: Jingleberry, MV boli, Segoe Print, Comic sans MS;
-    font-size: 250%;
-    margin-left: 15%;
-    margin-top: 2%;
-}
-
-h3 {
-    font-family: "Dekko", cursive;
-    font-size: 100%;
-    color: #f8e9ce;
-    background-color: #67371c;
-    padding: 10px;
-    width: 100%;
-}
-
-h3:hover {
-    color: #e6fbea
 }
 
 p {
     font-family: "Dekko", Nirmala UI, Malgun gothic, Calibri;
     font-size: 110%;
-    margin-left: 15%;
+    margin-left: 5%;
     margin-top: 0.5%;
-}
-
-.coffee-type {
-    color: #9e663100;
-    -webkit-text-stroke: 1.5px #422d1a;
-    font-family: Jingleberry, Century gothic, MV boli, Segoe Print, Comic sans MS;
-    text-shadow:
-        1px 1.5px 0 #9e6631;
-
 }
 
 .navigation li {
@@ -81,52 +57,6 @@ ul li a {
 
 ul li a:hover {
     background-color: #312114;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: 10px auto 0;
-    gap: 20px;
-    background-color: #f8e9ce;
-}
-
-.coffee-row {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #f8e9ce;
-    font-size: 20px;
-    text-align: center;
-}
-
-.coffee-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 200px;
-    background-color: #f8e9ce;
-}
-
-.coffee-box a {
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-.coffee-box img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    margin-bottom: 5px;
-}
-
-.coffee-box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
 * {

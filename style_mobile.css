@@ -1,4 +1,4 @@
-/* Mobile responsiveness for header */
+
 @media screen and (max-width: 768px) {
     .header-container {
         padding: 20px;
@@ -25,7 +25,6 @@
         border-radius: 100px;
     }
 
-    /* Adjust snowflakes for mobile */
     .snowflake:nth-child(1) {
         left: 10px;
         top: 10px;
@@ -74,7 +73,6 @@
         font-size: 1em;
     }
 
-    /* Make navigation stack vertically on mobile */
     ul {
         flex-direction: column;
     }
@@ -88,23 +86,22 @@
         padding: 12px 0;
     }
 
-    /* Make coffee boxes stack on mobile */
     .coffee-row {
         flex-direction: column;
-        margin: 10px;
-        gap: 10px;
+        align-items: center;
+        gap: 20px;
     }
 
     .container {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
-        gap: 15px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     h2 {
         margin-left: 5%;
-        font-size: 150%;
+        margin-top: 7%;
+        font-size: 200%;
     }
 }
